@@ -12,7 +12,7 @@
   rel="stylesheet"
   href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
 />
-  <link rel="stylesheet" href="css/recet.css">
+  <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -90,7 +90,7 @@
   <!-- //header -->
 
   <main>
-    <section class="main_bg">
+    <section class="main_bg" style="font-size: 1.6rem">
       <div class="swiper main_bg_sw">
         <div class="swiper-wrapper">
           <div class="swiper-slide">
@@ -729,11 +729,43 @@
     </div>
   </main>
 
-  <footer></footer>
+  <footer>
+    <div class="inner">
+      <div class="footer_nav">
+        <ul>
+          <li><a href="#"><span class="text_line">udemy</span></a></li>
+          <li><a href="#"><span class="text_line">udemy 기업교육</span></a></li>
+        </ul>
+
+        <ul>
+          <li><a href="#"><span class="text_line">인사이트</span></a></li>
+          <li><a href="#"><span class="text_line">강사되기</span></a></li>
+          <li><a href="#"><span class="text_line">파트너</span></a></li>
+          <li><a href="#"><span class="text_line">기업교육</span></a></li>
+        </ul>
+        <ul>
+          <li><a href="#"><span class="text_line">이벤트</span></a></li>
+          <li><a href="#"><span class="text_line">공지사항</span></a></li>
+        </ul>
+      </div>
+
+      <div class="footer_logo">
+        <div>
+          <img src="img/logo-footer.png" alt="">
+        </div>
+        <div>
+          <a href="#"><img src="img/logo-award.png" alt="" class="award"></a>
+        </div>
+      </div>
+
+      <div class="footer_sns"></div>
+    </div>
+  </footer>
 
 
   <script>
     var swiper = new Swiper(".main_bg_sw", {
+      spaceBetween: 10,
       pagination: {
         el: ".main_bg_pn",
         type: "fraction",
