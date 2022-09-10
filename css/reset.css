@@ -30,6 +30,9 @@ body {
 ol, ul, li, dl {
 	list-style: none;
 }
+dd, dt {
+	display: inline;
+}
 blockquote, q {
 	quotes: none;
 }
