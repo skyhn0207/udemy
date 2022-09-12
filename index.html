@@ -45,6 +45,10 @@
       <div class="member">
         <button class="member_btn">혜택받기</button>
       </div>
+      
+      <button class="menu_btn">
+        <img src="img/icon-category-search.png" alt="">
+      </button>
     </div>
     <!-- //header_top -->
 
@@ -118,42 +122,92 @@
             <a href="#" class="bg_link bg_link08"></a>
           </div>
         </div>
-        <div class="swiper-button-next main_bg_nbtn"></div>
-        <div class="swiper-button-prev main_bg_pbtn"></div>
-        <div class="swiper-pagination main_bg_pn"></div>
+        <div class="swiper_controller">
+          <div class="swiper_stop_btn">
+            <i class="fa fa-play" aria-hidden="true"></i>
+          </div>
+          <div class="swiper-button-prev main_bg_pbtn">
+            <i class="fa fa-angle-left" aria-hidden="true"></i>
+          </div>
+          <div class="swiper-pagination main_bg_pn"></div>
+          <div class="swiper-button-next main_bg_nbtn">
+            <i class="fa fa-angle-right" aria-hidden="true"></i>
+          </div>
+        </div>
       </div>
+    </section>
+    <!-- //main_bg -->
+    
+    <section class="mobil_quick_menu">
+      <ul>
+        <li>
+          <a href="#">
+            <p>
+              <img src="img/icon-main-quick1.png" alt="">
+            </p>
+            <span>시작, 무료강의</span>
+          </a>
+        </li>
+
+        <li>
+          <a href="#">
+            <p>
+              <img src="img/icon-main-quick2.png" alt="">
+            </p>
+            <span>시작, 무료강의</span>
+          </a>
+        </li>
+
+        <li>
+          <a href="#">
+            <p>
+              <img src="img/icon-main-quick3.png" alt="">
+            </p>
+            <span>시작, 무료강의</span>
+          </a>
+        </li>
+
+        <li>
+          <a href="#">
+            <p>
+              <img src="img/icon-main-quick4.png" alt="">
+            </p>
+            <span>시작, 무료강의</span>
+          </a>
+        </li>
+      </ul>
     </section>
 
     <div class="inner">
 
-      <section class="contents01">
+      <section class="home_short">
         <h2>세상 모든 강의</h2>
-        <div thumbsSlider="" class="swiper contents01_sw">
+        <div thumbsSlider="" class="swiper home_short_topsw">
           <div class="swiper-wrapper banner_wrap">
             <div class="swiper-slide list_banner">
-              <a href="#">앱 개발</a>
+              앱 개발
             </div>
             <div class="swiper-slide list_banner">
-              <a href="#">웹 개발</a>
+              웹 개발
             </div>
             <div class="swiper-slide list_banner">
-              <a href="#">게임 개발</a>
+              게임 개발
             </div>
             <div class="swiper-slide list_banner">
-              <a href="#">디자인</a>
+              디자인
             </div>
             <div class="swiper-slide list_banner">
-              <a href="#">외국어</a>
+              외국어
             </div>
             <div class="swiper-slide list_banner">
-              <a href="#">비즈니스</a>
+              비즈니스
             </div>
             
           </div>
         </div>
         <div
         style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff"
-        class="swiper contents01_sw02">
+        class="swiper home_short_mainsw">
           <div class="swiper-wrapper">
             <div class="swiper-slide">
               <div class="swiper inner_sw">
@@ -226,24 +280,417 @@
                   </div>
 
                 </div>
-                <div class="swiper-button-next sw01nbtn"></div>
-                <div class="swiper-button-prev sw01pbtn"></div>
+                <div class="swiper-button-next inner_sw_nbtn">
+                  <i class="fa fa-angle-right" aria-hidden="true"></i>
+                </div>
+                <div class="swiper-button-prev inner_sw_pbtn">
+                  <i class="fa fa-angle-left" aria-hidden="true"></i>
+                </div>
               </div>
             </div>
             <div class="swiper-slide">
+              <div class="swiper inner_sw">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <a href="#" class="list_box">
+                      <div class="img_box">
+                        <img src="img/73750562cjct.jpg" alt="">
+                      </div>
+                      <div class="text_box">
+                        <p>[Kotlin] 쇼핑앱 만들어 볼까? Android app 개발 부트캠프</p>
+                        <span class="badge">개발</span><span class="author">Ivy Bae</span>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href="#" class="list_box">
+                      <div class="img_box">
+                        <img src="img/82307688fkpo.jpg" alt="">
+                      </div>
+                      <div class="text_box">
+                        <p>[개발] Flutter 앱 개발 완성</p>
+                        <span class="badge">개발</span><span class="author">이찬호</span>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href="#" class="list_box">
+                      <div class="img_box">
+                        <img src="img/73667054uppz.jpg" alt="">
+                      </div>
+                      <div class="text_box">
+                        <p>[Flutter] Flutter Provider Essential 코스 (한국어)</p>
+                        <span class="badge">개발</span><span class="author">Ivy Bae</span>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href="#" class="list_box">
+                      <div class="img_box">
+                        <img src="img/72177758aisn.jpg" alt="">
+                      </div>
+                      <div class="text_box">
+                        <p>[iOS] 누구나 따라할 수 있는 iOS 클론코딩</p>
+                        <span class="badge">개발</span><span class="author">Uno, Jino</span>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href="#" class="list_box">
+                      <div class="img_box">
+                        <img src="img/73667194xkjh.png" alt="">
+                      </div>
+                      <div class="text_box">
+                        <p>[Flutter] Flutter Provider Essential 코스 (한국어)</p>
+                        <span class="badge">개발</span><span class="author">Ivy Bae</span>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href="#" class="list_box">
+                      <div class="img_box">
+                        <img src="img/71947546ecvm.jpg" alt="">
+                      </div>
+                      <div class="text_box">
+                        <p>[iOS] 누구나 따라할 수 있는 iOS 클론코딩</p>
+                        <span class="badge">개발</span><span class="author">Uno, Jino</span>
+                      </div>
+                    </a>
+                  </div>
+
+                </div>
+                <div class="swiper-button-next inner_sw_nbtn">
+                  <i class="fa fa-angle-right" aria-hidden="true"></i>
+                </div>
+                <div class="swiper-button-prev inner_sw_pbtn">
+                  <i class="fa fa-angle-left" aria-hidden="true"></i>
+                </div>
+              </div>
             </div>
+
             <div class="swiper-slide">
+              <div class="swiper inner_sw">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <a href="#" class="list_box">
+                      <div class="img_box">
+                        <img src="img/73750562cjct.jpg" alt="">
+                      </div>
+                      <div class="text_box">
+                        <p>[Kotlin] 쇼핑앱 만들어 볼까? Android app 개발 부트캠프</p>
+                        <span class="badge">개발</span><span class="author">Ivy Bae</span>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href="#" class="list_box">
+                      <div class="img_box">
+                        <img src="img/82307688fkpo.jpg" alt="">
+                      </div>
+                      <div class="text_box">
+                        <p>[개발] Flutter 앱 개발 완성</p>
+                        <span class="badge">개발</span><span class="author">이찬호</span>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href="#" class="list_box">
+                      <div class="img_box">
+                        <img src="img/73667054uppz.jpg" alt="">
+                      </div>
+                      <div class="text_box">
+                        <p>[Flutter] Flutter Provider Essential 코스 (한국어)</p>
+                        <span class="badge">개발</span><span class="author">Ivy Bae</span>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href="#" class="list_box">
+                      <div class="img_box">
+                        <img src="img/72177758aisn.jpg" alt="">
+                      </div>
+                      <div class="text_box">
+                        <p>[iOS] 누구나 따라할 수 있는 iOS 클론코딩</p>
+                        <span class="badge">개발</span><span class="author">Uno, Jino</span>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href="#" class="list_box">
+                      <div class="img_box">
+                        <img src="img/73667194xkjh.png" alt="">
+                      </div>
+                      <div class="text_box">
+                        <p>[Flutter] Flutter Provider Essential 코스 (한국어)</p>
+                        <span class="badge">개발</span><span class="author">Ivy Bae</span>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href="#" class="list_box">
+                      <div class="img_box">
+                        <img src="img/71947546ecvm.jpg" alt="">
+                      </div>
+                      <div class="text_box">
+                        <p>[iOS] 누구나 따라할 수 있는 iOS 클론코딩</p>
+                        <span class="badge">개발</span><span class="author">Uno, Jino</span>
+                      </div>
+                    </a>
+                  </div>
+
+                </div>
+                <div class="swiper-button-next inner_sw_nbtn">
+                  <i class="fa fa-angle-right" aria-hidden="true"></i>
+                </div>
+                <div class="swiper-button-prev inner_sw_pbtn">
+                  <i class="fa fa-angle-left" aria-hidden="true"></i>
+                </div>
+              </div>
             </div>
+
             <div class="swiper-slide">
+              <div class="swiper inner_sw">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <a href="#" class="list_box">
+                      <div class="img_box">
+                        <img src="img/73750562cjct.jpg" alt="">
+                      </div>
+                      <div class="text_box">
+                        <p>[Kotlin] 쇼핑앱 만들어 볼까? Android app 개발 부트캠프</p>
+                        <span class="badge">개발</span><span class="author">Ivy Bae</span>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href="#" class="list_box">
+                      <div class="img_box">
+                        <img src="img/82307688fkpo.jpg" alt="">
+                      </div>
+                      <div class="text_box">
+                        <p>[개발] Flutter 앱 개발 완성</p>
+                        <span class="badge">개발</span><span class="author">이찬호</span>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href="#" class="list_box">
+                      <div class="img_box">
+                        <img src="img/73667054uppz.jpg" alt="">
+                      </div>
+                      <div class="text_box">
+                        <p>[Flutter] Flutter Provider Essential 코스 (한국어)</p>
+                        <span class="badge">개발</span><span class="author">Ivy Bae</span>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href="#" class="list_box">
+                      <div class="img_box">
+                        <img src="img/72177758aisn.jpg" alt="">
+                      </div>
+                      <div class="text_box">
+                        <p>[iOS] 누구나 따라할 수 있는 iOS 클론코딩</p>
+                        <span class="badge">개발</span><span class="author">Uno, Jino</span>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href="#" class="list_box">
+                      <div class="img_box">
+                        <img src="img/73667194xkjh.png" alt="">
+                      </div>
+                      <div class="text_box">
+                        <p>[Flutter] Flutter Provider Essential 코스 (한국어)</p>
+                        <span class="badge">개발</span><span class="author">Ivy Bae</span>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href="#" class="list_box">
+                      <div class="img_box">
+                        <img src="img/71947546ecvm.jpg" alt="">
+                      </div>
+                      <div class="text_box">
+                        <p>[iOS] 누구나 따라할 수 있는 iOS 클론코딩</p>
+                        <span class="badge">개발</span><span class="author">Uno, Jino</span>
+                      </div>
+                    </a>
+                  </div>
+
+                </div>
+                <div class="swiper-button-next inner_sw_nbtn">
+                  <i class="fa fa-angle-right" aria-hidden="true"></i>
+                </div>
+                <div class="swiper-button-prev inner_sw_pbtn">
+                  <i class="fa fa-angle-left" aria-hidden="true"></i>
+                </div>
+              </div>
             </div>
+
             <div class="swiper-slide">
+              <div class="swiper inner_sw">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <a href="#" class="list_box">
+                      <div class="img_box">
+                        <img src="img/73750562cjct.jpg" alt="">
+                      </div>
+                      <div class="text_box">
+                        <p>[Kotlin] 쇼핑앱 만들어 볼까? Android app 개발 부트캠프</p>
+                        <span class="badge">개발</span><span class="author">Ivy Bae</span>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href="#" class="list_box">
+                      <div class="img_box">
+                        <img src="img/82307688fkpo.jpg" alt="">
+                      </div>
+                      <div class="text_box">
+                        <p>[개발] Flutter 앱 개발 완성</p>
+                        <span class="badge">개발</span><span class="author">이찬호</span>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href="#" class="list_box">
+                      <div class="img_box">
+                        <img src="img/73667054uppz.jpg" alt="">
+                      </div>
+                      <div class="text_box">
+                        <p>[Flutter] Flutter Provider Essential 코스 (한국어)</p>
+                        <span class="badge">개발</span><span class="author">Ivy Bae</span>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href="#" class="list_box">
+                      <div class="img_box">
+                        <img src="img/72177758aisn.jpg" alt="">
+                      </div>
+                      <div class="text_box">
+                        <p>[iOS] 누구나 따라할 수 있는 iOS 클론코딩</p>
+                        <span class="badge">개발</span><span class="author">Uno, Jino</span>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href="#" class="list_box">
+                      <div class="img_box">
+                        <img src="img/73667194xkjh.png" alt="">
+                      </div>
+                      <div class="text_box">
+                        <p>[Flutter] Flutter Provider Essential 코스 (한국어)</p>
+                        <span class="badge">개발</span><span class="author">Ivy Bae</span>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href="#" class="list_box">
+                      <div class="img_box">
+                        <img src="img/71947546ecvm.jpg" alt="">
+                      </div>
+                      <div class="text_box">
+                        <p>[iOS] 누구나 따라할 수 있는 iOS 클론코딩</p>
+                        <span class="badge">개발</span><span class="author">Uno, Jino</span>
+                      </div>
+                    </a>
+                  </div>
+
+                </div>
+                <div class="swiper-button-next inner_sw_nbtn">
+                  <i class="fa fa-angle-right" aria-hidden="true"></i>
+                </div>
+                <div class="swiper-button-prev inner_sw_pbtn">
+                  <i class="fa fa-angle-left" aria-hidden="true"></i>
+                </div>
+              </div>
             </div>
+
             <div class="swiper-slide">
+              <div class="swiper inner_sw">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <a href="#" class="list_box">
+                      <div class="img_box">
+                        <img src="img/73750562cjct.jpg" alt="">
+                      </div>
+                      <div class="text_box">
+                        <p>[Kotlin] 쇼핑앱 만들어 볼까? Android app 개발 부트캠프</p>
+                        <span class="badge">개발</span><span class="author">Ivy Bae</span>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href="#" class="list_box">
+                      <div class="img_box">
+                        <img src="img/82307688fkpo.jpg" alt="">
+                      </div>
+                      <div class="text_box">
+                        <p>[개발] Flutter 앱 개발 완성</p>
+                        <span class="badge">개발</span><span class="author">이찬호</span>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href="#" class="list_box">
+                      <div class="img_box">
+                        <img src="img/73667054uppz.jpg" alt="">
+                      </div>
+                      <div class="text_box">
+                        <p>[Flutter] Flutter Provider Essential 코스 (한국어)</p>
+                        <span class="badge">개발</span><span class="author">Ivy Bae</span>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href="#" class="list_box">
+                      <div class="img_box">
+                        <img src="img/72177758aisn.jpg" alt="">
+                      </div>
+                      <div class="text_box">
+                        <p>[iOS] 누구나 따라할 수 있는 iOS 클론코딩</p>
+                        <span class="badge">개발</span><span class="author">Uno, Jino</span>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href="#" class="list_box">
+                      <div class="img_box">
+                        <img src="img/73667194xkjh.png" alt="">
+                      </div>
+                      <div class="text_box">
+                        <p>[Flutter] Flutter Provider Essential 코스 (한국어)</p>
+                        <span class="badge">개발</span><span class="author">Ivy Bae</span>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href="#" class="list_box">
+                      <div class="img_box">
+                        <img src="img/71947546ecvm.jpg" alt="">
+                      </div>
+                      <div class="text_box">
+                        <p>[iOS] 누구나 따라할 수 있는 iOS 클론코딩</p>
+                        <span class="badge">개발</span><span class="author">Uno, Jino</span>
+                      </div>
+                    </a>
+                  </div>
+
+                </div>
+                <div class="swiper-button-next inner_sw_nbtn">
+                  <i class="fa fa-angle-right" aria-hidden="true"></i>
+                </div>
+                <div class="swiper-button-prev inner_sw_pbtn">
+                  <i class="fa fa-angle-left" aria-hidden="true"></i>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </section>
-      <!-- contents01 -->
+      <!-- //home_short -->
 
 
       <section class="keyword">
@@ -280,7 +727,7 @@
                 <div class="swiper-slide">
                   <a href="#">
                     <div class="img_box">
-                      <img src="img/84201598zvcq.jpg" alt="">
+                      <img src="img/84556757kihq.jpg" alt="">
                     </div>
                   </a>
                 </div>
@@ -291,16 +738,41 @@
                     </div>
                   </a>
                 </div>
-                <div class="swiper-slide">Slide 3</div>
-                <div class="swiper-slide">Slide 4</div>
-                <div class="swiper-slide">Slide 5</div>
-                <div class="swiper-slide">Slide 6</div>
-                <div class="swiper-slide">Slide 7</div>
-                <div class="swiper-slide">Slide 8</div>
-                <div class="swiper-slide">Slide 9</div>
+                <div class="swiper-slide">
+                  <a href="#">
+                    <div class="img_box">
+                      <img src="img/84194701neym.jpg" alt="">
+                    </div>
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="#">
+                    <div class="img_box">
+                      <img src="img/83581873nnhe.jpg" alt="">
+                    </div>
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="#">
+                    <div class="img_box">
+                      <img src="img/83342432oycu.jpg" alt="">
+                    </div>
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="#">
+                    <div class="img_box">
+                      <img src="img/83432683oumv.jpg" alt="">
+                    </div>
+                  </a>
+                </div>
               </div>
-              <div class="swiper-button-next insite_sw_nbth"></div>
-              <div class="swiper-button-prev insite_sw_pbth"></div>
+            </div>
+            <div class="swiper-button-next insite_sw_nbtn">
+              <i class="fa fa-angle-right" aria-hidden="true"></i>
+            </div>
+            <div class="swiper-button-prev insite_sw_pbtn">
+              <i class="fa fa-angle-left" aria-hidden="true"></i>
             </div>
           </div>
         </div>
@@ -314,66 +786,66 @@
               <div class="swiper-slide">
                 <a href="#" class="list_box">
                   <div class="img_box">
-                    <img src="img/73750562cjct.jpg" alt="">
+                    <img src="img/84650552ndfo.png" alt="">
                   </div>
                   <div class="text_box">
-                    <p>[Kotlin] 쇼핑앱 만들어 볼까? Android app 개발 부트캠프</p>
-                    <span class="badge">개발</span><span class="author">Ivy Bae</span>
+                    <p>[개발] HTML, CSS, Javascript 기초 과정</p>
+                    <span class="badge">개발</span><span class="author">Programming School</span>
                   </div>
                 </a>
               </div>
               <div class="swiper-slide">
                 <a href="#" class="list_box">
                   <div class="img_box">
-                    <img src="img/73750562cjct.jpg" alt="">
+                    <img src="img/84650512oagp.png" alt="">
                   </div>
                   <div class="text_box">
-                    <p>[Kotlin] 쇼핑앱 만들어 볼까? Android app 개발 부트캠프</p>
-                    <span class="badge">개발</span><span class="author">Ivy Bae</span>
+                    <p>[개발] 초보자도 쉽게 만드는 React Web 서비스 만들기</p>
+                    <span class="badge">개발</span><span class="author">에피노 주식회사</span>
                   </div>
                 </a>
               </div>
               <div class="swiper-slide">
                 <a href="#" class="list_box">
                   <div class="img_box">
-                    <img src="img/73750562cjct.jpg" alt="">
+                    <img src="img/84563654iqbo.png" alt="">
                   </div>
                   <div class="text_box">
-                    <p>[Kotlin] 쇼핑앱 만들어 볼까? Android app 개발 부트캠프</p>
-                    <span class="badge">개발</span><span class="author">Ivy Bae</span>
+                    <p>[개발] 생애 첫 SQL With 제코베</p>
+                    <span class="badge">개발</span><span class="author">이호준</span>
                   </div>
                 </a>
               </div>
               <div class="swiper-slide">
                 <a href="#" class="list_box">
                   <div class="img_box">
-                    <img src="img/73750562cjct.jpg" alt="">
+                    <img src="img/84563528eoid.png" alt="">
                   </div>
                   <div class="text_box">
-                    <p>[Kotlin] 쇼핑앱 만들어 볼까? Android app 개발 부트캠프</p>
-                    <span class="badge">개발</span><span class="author">Ivy Bae</span>
+                    <p>[웹개발] Spring Boot JWT Tutorial</p>
+                    <span class="badge">개발</span><span class="author">정은구</span>
                   </div>
                 </a>
               </div>
               <div class="swiper-slide">
                 <a href="#" class="list_box">
                   <div class="img_box">
-                    <img src="img/73750562cjct.jpg" alt="">
+                    <img src="img/84190290fatc.png" alt="">
                   </div>
                   <div class="text_box">
-                    <p>[Kotlin] 쇼핑앱 만들어 볼까? Android app 개발 부트캠프</p>
-                    <span class="badge">개발</span><span class="author">Ivy Bae</span>
+                    <p>[영어] 네이티브 영어표현력 사전 - 기본 동사 4탄</p>
+                    <span class="badge">외국어</span><span class="author">Darakwon</span>
                   </div>
                 </a>
               </div>
               <div class="swiper-slide">
                 <a href="#" class="list_box">
                   <div class="img_box">
-                    <img src="img/73750562cjct.jpg" alt="">
+                    <img src="img/68479156fmpa.jpg" alt="">
                   </div>
                   <div class="text_box">
-                    <p>[Kotlin] 쇼핑앱 만들어 볼까? Android app 개발 부트캠프</p>
-                    <span class="badge">개발</span><span class="author">Ivy Bae</span>
+                    <p>[비즈니스] 당신은 아이디어를 살리는 리더인가? 죽이는 리더인가?</p>
+                    <span class="badge">개발</span><span class="author">IGM</span>
                   </div>
                 </a>
               </div>
@@ -389,8 +861,12 @@
                 </a>
               </div>
             </div>
-            <div class="swiper-button-next"></div>
-            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next all_nbtn">
+              <i class="fa fa-angle-right" aria-hidden="true"></i>
+            </div>
+            <div class="swiper-button-prev all_pbtn">
+              <i class="fa fa-angle-left" aria-hidden="true"></i>
+            </div>
           </div>
         </div>
 
@@ -401,83 +877,87 @@
               <div class="swiper-slide">
                 <a href="#" class="list_box">
                   <div class="img_box">
-                    <img src="img/73750562cjct.jpg" alt="">
+                    <img src="img/76342729dugr.jpg" alt="">
                   </div>
                   <div class="text_box">
-                    <p>[Kotlin] 쇼핑앱 만들어 볼까? Android app 개발 부트캠프</p>
-                    <span class="badge">개발</span><span class="author">Ivy Bae</span>
+                    <p>[한글자막] React Query : React로 서버 상태 관리하기</p>
+                    <span class="badge">IT 및 소프트웨어</span><span class="author">Schulkin</span>
                   </div>
                 </a>
               </div>
               <div class="swiper-slide">
                 <a href="#" class="list_box">
                   <div class="img_box">
-                    <img src="img/73750562cjct.jpg" alt="">
+                    <img src="img/73668335botd.jpg" alt="">
                   </div>
                   <div class="text_box">
-                    <p>[Kotlin] 쇼핑앱 만들어 볼까? Android app 개발 부트캠프</p>
-                    <span class="badge">개발</span><span class="author">Ivy Bae</span>
+                    <p>[한글자막] Pandas 완전 정복 부트캠프 2022: 파이썬 데이터 과학</p>
+                    <span class="badge">개발</span><span class="author">Alexander Hagmann</span>
                   </div>
                 </a>
               </div>
               <div class="swiper-slide">
                 <a href="#" class="list_box">
                   <div class="img_box">
-                    <img src="img/73750562cjct.jpg" alt="">
+                    <img src="img/73667194xkjh.png" alt="">
                   </div>
                   <div class="text_box">
-                    <p>[Kotlin] 쇼핑앱 만들어 볼까? Android app 개발 부트캠프</p>
-                    <span class="badge">개발</span><span class="author">Ivy Bae</span>
+                    <p>[Flutter] Flutter Bloc Essential 코스</p>
+                    <span class="badge">개발</span><span class="author">Sangwook Cho</span>
                   </div>
                 </a>
               </div>
               <div class="swiper-slide">
                 <a href="#" class="list_box">
                   <div class="img_box">
-                    <img src="img/73750562cjct.jpg" alt="">
+                    <img src="img/83432439ayen.jpg" alt="">
                   </div>
                   <div class="text_box">
-                    <p>[Kotlin] 쇼핑앱 만들어 볼까? Android app 개발 부트캠프</p>
-                    <span class="badge">개발</span><span class="author">Ivy Bae</span>
+                    <p>[한글자막] Java 심화 과정: Java Reflection 마스터</p>
+                    <span class="badge">개발</span><span class="author">Michael Pogrebinsky</span>
                   </div>
                 </a>
               </div>
               <div class="swiper-slide">
                 <a href="#" class="list_box">
                   <div class="img_box">
-                    <img src="img/73750562cjct.jpg" alt="">
+                    <img src="img/73668564adzp.jpg" alt="">
                   </div>
                   <div class="text_box">
-                    <p>[Kotlin] 쇼핑앱 만들어 볼까? Android app 개발 부트캠프</p>
-                    <span class="badge">개발</span><span class="author">Ivy Bae</span>
+                    <p>[한글자막] Golang : Google’s Go 프로그래밍 언어를 이용한 코딩 학습</p>
+                    <span class="badge">개발</span><span class="author">Todd McLeod</span>
                   </div>
                 </a>
               </div>
               <div class="swiper-slide">
                 <a href="#" class="list_box">
                   <div class="img_box">
-                    <img src="img/73750562cjct.jpg" alt="">
+                    <img src="img/82309231zlkf.jpg" alt="">
                   </div>
                   <div class="text_box">
-                    <p>[Kotlin] 쇼핑앱 만들어 볼까? Android app 개발 부트캠프</p>
-                    <span class="badge">개발</span><span class="author">Ivy Bae</span>
+                    <p>[한글자막] 쿠버네티스 실습: AWS 클라우드에 마이크로서비스 배포하기</p>
+                    <span class="badge">개발</span><span class="author">Todd McLeod</span>
                   </div>
                 </a>
               </div>
               <div class="swiper-slide">
                 <a href="#" class="list_box">
                   <div class="img_box">
-                    <img src="img/73750562cjct.jpg" alt="">
+                    <img src="img/82825883wbem.jpg" alt="">
                   </div>
                   <div class="text_box">
-                    <p>[Kotlin] 쇼핑앱 만들어 볼까? Android app 개발 부트캠프</p>
-                    <span class="badge">개발</span><span class="author">Ivy Bae</span>
+                    <p>[한글자막] 소프트웨어 아키텍처 및 대규모 시스템 설계</p>
+                    <span class="badge">개발</span><span class="author">Michael Pogrebinsky</span>
                   </div>
                 </a>
               </div>
             </div>
-            <div class="swiper-button-next"></div>
-            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next all_nbtn">
+              <i class="fa fa-angle-right" aria-hidden="true"></i>
+            </div>
+            <div class="swiper-button-prev all_pbtn">
+              <i class="fa fa-angle-left" aria-hidden="true"></i>
+            </div>
           </div>
         </div>
 
@@ -488,83 +968,76 @@
               <div class="swiper-slide">
                 <a href="#" class="list_box">
                   <div class="img_box">
-                    <img src="img/73750562cjct.jpg" alt="">
+                    <img src="img/73668505jeot.jpg" alt="">
                   </div>
                   <div class="text_box">
-                    <p>[Kotlin] 쇼핑앱 만들어 볼까? Android app 개발 부트캠프</p>
-                    <span class="badge">개발</span><span class="author">Ivy Bae</span>
+                    <p>[포토샵, 메디방] 제페토 패션 아이템으로 월 200만원 용돈 벌기</p>
+                    <span class="badge">IT 및 소프트웨어</span><span class="author">라한솔</span>
                   </div>
                 </a>
               </div>
               <div class="swiper-slide">
                 <a href="#" class="list_box">
                   <div class="img_box">
-                    <img src="img/73750562cjct.jpg" alt="">
+                    <img src="img/73668487awfo.jpg" alt="">
                   </div>
                   <div class="text_box">
-                    <p>[Kotlin] 쇼핑앱 만들어 볼까? Android app 개발 부트캠프</p>
-                    <span class="badge">개발</span><span class="author">Ivy Bae</span>
+                    <p>[블렌더3D, 유니티] 제페토 3D 아이템으로 월 천만원 수익 창출하기</p>
+                    <span class="badge">IT 및 소프트웨어</span><span class="author">라한솔</span>
                   </div>
                 </a>
               </div>
               <div class="swiper-slide">
                 <a href="#" class="list_box">
                   <div class="img_box">
-                    <img src="img/73750562cjct.jpg" alt="">
+                    <img src="img/73668548hnea.jpg" alt="">
                   </div>
                   <div class="text_box">
-                    <p>[Kotlin] 쇼핑앱 만들어 볼까? Android app 개발 부트캠프</p>
-                    <span class="badge">개발</span><span class="author">Ivy Bae</span>
+                    <p>[Figma] 피그마를 활용한 디지털 기획 입문</p>
+                    <span class="badge">디자인</span><span class="author">유서호</span>
                   </div>
                 </a>
               </div>
               <div class="swiper-slide">
                 <a href="#" class="list_box">
                   <div class="img_box">
-                    <img src="img/73750562cjct.jpg" alt="">
+                    <img src="img/73668564adzp.jpg" alt="">
                   </div>
                   <div class="text_box">
-                    <p>[Kotlin] 쇼핑앱 만들어 볼까? Android app 개발 부트캠프</p>
-                    <span class="badge">개발</span><span class="author">Ivy Bae</span>
+                    <p>[Adobe Illustrator CC] 필수 스킬 모두 마스터하기</p>
+                    <span class="badge">디자인</span><span class="author">Video School</span>
                   </div>
                 </a>
               </div>
               <div class="swiper-slide">
                 <a href="#" class="list_box">
                   <div class="img_box">
-                    <img src="img/73750562cjct.jpg" alt="">
+                    <img src="img/71333261cfan.jpg" alt="">
                   </div>
                   <div class="text_box">
-                    <p>[Kotlin] 쇼핑앱 만들어 볼까? Android app 개발 부트캠프</p>
-                    <span class="badge">개발</span><span class="author">Ivy Bae</span>
+                    <p>[Lottie.js] 누구나 스킬 업! 로티 완벽 습득</p>
+                    <span class="badge">디자인</span><span class="author">디자인베이스 디자인 강좌</span>
                   </div>
                 </a>
               </div>
               <div class="swiper-slide">
                 <a href="#" class="list_box">
                   <div class="img_box">
-                    <img src="img/73750562cjct.jpg" alt="">
+                    <img src="img/73668595vbyi.jpg" alt="">
                   </div>
                   <div class="text_box">
-                    <p>[Kotlin] 쇼핑앱 만들어 볼까? Android app 개발 부트캠프</p>
-                    <span class="badge">개발</span><span class="author">Ivy Bae</span>
-                  </div>
-                </a>
-              </div>
-              <div class="swiper-slide">
-                <a href="#" class="list_box">
-                  <div class="img_box">
-                    <img src="img/73750562cjct.jpg" alt="">
-                  </div>
-                  <div class="text_box">
-                    <p>[Kotlin] 쇼핑앱 만들어 볼까? Android app 개발 부트캠프</p>
-                    <span class="badge">개발</span><span class="author">Ivy Bae</span>
+                    <p>[디자인] 초보 일러스트레이터에서 돈 버는 외주 작가 되기</p>
+                    <span class="badge">디자인</span><span class="author">노트폴리오 클래스</span>
                   </div>
                 </a>
               </div>
             </div>
-            <div class="swiper-button-next"></div>
-            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next all_nbtn">
+              <i class="fa fa-angle-right" aria-hidden="true"></i>
+            </div>
+            <div class="swiper-button-prev all_pbtn">
+              <i class="fa fa-angle-left" aria-hidden="true"></i>
+            </div>
           </div>
         </div>
 
@@ -575,7 +1048,40 @@
               <div class="swiper-slide">
                 <a href="#" class="list_box">
                   <div class="img_box">
-                    <img src="img/73750562cjct.jpg" alt="">
+                    <img src="img/82893998ntcp.jpg" alt="">
+                  </div>
+                  <div class="text_box">
+                    <p>[엑셀 자동화] 매크로로 일정관리 자동화 시트 만들기</p>
+                    <span class="badge">사무 생산성</span><span class="author">김하루</span>
+                  </div>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="#" class="list_box">
+                  <div class="img_box">
+                    <img src="img/69075977ocnz.jpg" alt="">
+                  </div>
+                  <div class="text_box">
+                    <p>[Excel] 데이터 분석 전처리 실무 - 파워쿼리</p>
+                    <span class="badge">사무 생산성</span><span class="author">최정하</span>
+                  </div>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="#" class="list_box">
+                  <div class="img_box">
+                    <img src="img/82825883wbem.jpg" alt="">
+                  </div>
+                  <div class="text_box">
+                    <p>[PPT] 꼭 알아야 하는 파워포인트 실무 스킬</p>
+                    <span class="badge">사무 생산성</span><span class="author">조운자룡</span>
+                  </div>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="#" class="list_box">
+                  <div class="img_box">
+                    <img src="img/68479327ablh.jpg" alt="">
                   </div>
                   <div class="text_box">
                     <p>[Kotlin] 쇼핑앱 만들어 볼까? Android app 개발 부트캠프</p>
@@ -586,72 +1092,21 @@
               <div class="swiper-slide">
                 <a href="#" class="list_box">
                   <div class="img_box">
-                    <img src="img/73750562cjct.jpg" alt="">
+                    <img src="img/76440650fgib.jpg" alt="">
                   </div>
                   <div class="text_box">
-                    <p>[Kotlin] 쇼핑앱 만들어 볼까? Android app 개발 부트캠프</p>
-                    <span class="badge">개발</span><span class="author">Ivy Bae</span>
-                  </div>
-                </a>
-              </div>
-              <div class="swiper-slide">
-                <a href="#" class="list_box">
-                  <div class="img_box">
-                    <img src="img/73750562cjct.jpg" alt="">
-                  </div>
-                  <div class="text_box">
-                    <p>[Kotlin] 쇼핑앱 만들어 볼까? Android app 개발 부트캠프</p>
-                    <span class="badge">개발</span><span class="author">Ivy Bae</span>
-                  </div>
-                </a>
-              </div>
-              <div class="swiper-slide">
-                <a href="#" class="list_box">
-                  <div class="img_box">
-                    <img src="img/73750562cjct.jpg" alt="">
-                  </div>
-                  <div class="text_box">
-                    <p>[Kotlin] 쇼핑앱 만들어 볼까? Android app 개발 부트캠프</p>
-                    <span class="badge">개발</span><span class="author">Ivy Bae</span>
-                  </div>
-                </a>
-              </div>
-              <div class="swiper-slide">
-                <a href="#" class="list_box">
-                  <div class="img_box">
-                    <img src="img/73750562cjct.jpg" alt="">
-                  </div>
-                  <div class="text_box">
-                    <p>[Kotlin] 쇼핑앱 만들어 볼까? Android app 개발 부트캠프</p>
-                    <span class="badge">개발</span><span class="author">Ivy Bae</span>
-                  </div>
-                </a>
-              </div>
-              <div class="swiper-slide">
-                <a href="#" class="list_box">
-                  <div class="img_box">
-                    <img src="img/73750562cjct.jpg" alt="">
-                  </div>
-                  <div class="text_box">
-                    <p>[Kotlin] 쇼핑앱 만들어 볼까? Android app 개발 부트캠프</p>
-                    <span class="badge">개발</span><span class="author">Ivy Bae</span>
-                  </div>
-                </a>
-              </div>
-              <div class="swiper-slide">
-                <a href="#" class="list_box">
-                  <div class="img_box">
-                    <img src="img/73750562cjct.jpg" alt="">
-                  </div>
-                  <div class="text_box">
-                    <p>[Kotlin] 쇼핑앱 만들어 볼까? Android app 개발 부트캠프</p>
-                    <span class="badge">개발</span><span class="author">Ivy Bae</span>
+                    <p>[한글자막] 애자일 완벽 가이드: 스크럼 및 칸반 포함</p>
+                    <span class="badge">비즈니스</span><span class="author">The BA Guide</span>
                   </div>
                 </a>
               </div>
             </div>
-            <div class="swiper-button-next"></div>
-            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next all_nbtn">
+              <i class="fa fa-angle-right" aria-hidden="true"></i>
+            </div>
+            <div class="swiper-button-prev all_pbtn">
+              <i class="fa fa-angle-left" aria-hidden="true"></i>
+            </div>
           </div>
         </div>
       </section>
@@ -766,10 +1221,18 @@
       <div class="footer_sns">
         <div class="sns_link">
           <ul>
-            <li><a href="#" class="instargram"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-            <li><a href="#" class="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-            <li><a href="#" class="linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-            <li><a href="#" class="twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+            <li>
+              <a href="#" class="instargram"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            </li>
+            <li>
+              <a href="#" class="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+            </li>
+            <li>
+              <a href="#" class="linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+            </li>
+            <li>
+              <a href="#" class="twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+            </li>
           </ul>
         </div>
         <div class="footer_info">
@@ -819,20 +1282,18 @@
       },
     });
   </script>
+  
   <script>
-    var swiper = new Swiper(".contents01_sw", {
-      spaceBetween: 10,
+    var swiper = new Swiper(".home_short_topsw", {
+      spaceBetween: 0,
       slidesPerView: 6,
-      freeMode: true,
+      freeMode: false,
       watchSlidesProgress: true,
     });
-    var swiper2 = new Swiper(".contents01_sw02", {
-      spaceBetween: 10,
+    var swiper2 = new Swiper(".home_short_mainsw", {
+      spaceBetween: 1,
       touchRatio: 0,
-      navigation: {
-        nextEl: ".scontents01_sw02_nbtn",
-        prevEl: ".contents01_sw02_pbtn",
-      },
+      
       thumbs: {
         swiper: swiper,
       },
@@ -844,8 +1305,8 @@
       slidesPerView:3,
       spaceBetween: 12,
       navigation: {
-        nextEl: ".sw01nbtn",
-        prevEl: ".sw01pbtn",
+        nextEl: ".inner_sw_nbtn",
+        prevEl: ".inner_sw_pbtn",
       },
     });
   </script>
@@ -856,8 +1317,8 @@
       spaceBetween: 20,
       slidesPerView:2,
       navigation: {
-        nextEl: ".insite_sw_nbth",
-        prevEl: ".insite_sw_pbth",
+        nextEl: ".insite_sw_nbtn",
+        prevEl: ".insite_sw_pbtn",
       },
     });
   </script>
